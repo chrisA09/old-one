@@ -1,0 +1,1 @@
+La idea es hacer una pagina siple que no tome mas de un par de horas, con responsive design y aplicando las mayoria de las reglas del curso, para fortalecer y practicar lo aprendido.

@@ -1,0 +1,252 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  padding: 0;
+  background: #f6f6f4;
+}
+.navBar {
+  background: #3d3b30;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 3.5rem;
+}
+.titulo {
+  font-size: 2rem;
+  margin: 2rem;
+  text-transform: uppercase;
+}
+.titulo a {
+  text-decoration: none;
+  color: white;
+  text-transform: none;
+}
+.links ul {
+  display: flex;
+}
+.links li {
+  list-style: none;
+  padding: 1rem;
+  margin: none;
+}
+.links li a {
+  text-decoration: none;
+  color: white;
+  display: block;
+  text-transform: capitalize;
+}
+.links li:hover {
+  background: gray;
+}
+.correccion {
+  margin-top: 2em;
+
+  /* margin-block-start: 0; */
+  margin-block-end: 0;
+}
+.intro {
+  width: 60%;
+  margin-left: 2em;
+}
+.nosotros {
+  height: 70vh;
+
+  display: flex;
+  justify-content: center;
+}
+.division {
+  height: 55vh;
+  width: 70%;
+  border: white solid thin;
+  border-radius: 10px;
+  background: #fefdff;
+  margin-bottom: 4em;
+  background: url(./backgroundone.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  box-shadow: 0 5px 15px 0 rgba(0, 0, 0, 0.5);
+
+  align-self: flex-end;
+}
+.section-1 {
+  height: 110vh;
+  /* width: 100vw; */
+  /* border: solid thin black; */
+  padding: 0;
+  margin: 0;
+  /* background: #f6f6f4; */
+}
+#completa {
+  margin-left: 5em;
+  text-transform: capitalize;
+  font-size: 1.5em;
+}
+.container {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+
+  /* width: 100%; */
+  /* border: solid thin black; */
+  margin: 0;
+  padding: 0;
+}
+.item {
+  width: 24%;
+  /* padding: 20px; */
+  height: 80vh;
+  /* border: 1.5px solid #333; */
+  display: flex;
+  flex-flow: column wrap;
+  border-radius: 10px;
+  background: #fefdff;
+}
+.item:hover {
+  box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.5);
+}
+.formulario {
+  display: flex;
+}
+.formulario > * {
+  font-size: 14px;
+}
+.titulos {
+  text-transform: capitalize;
+  font-weight: normal;
+  margin-bottom: 20px;
+  font-size: 1em;
+
+  display: flex;
+  justify-content: flex-start;
+  align-self: center;
+}
+/* falta box-shadow a todo el formulario */
+input[type="text"] {
+  border: 0;
+  padding: 5px;
+  width: 80%;
+  margin: 1rem;
+  border-radius: 5px;
+  border-width: 0.5px;
+  box-shadow: 0 5px 15px 0 rgba(0, 0, 0, 0.5);
+}
+input[type="email"] {
+  border: 0;
+  padding: 5px;
+  width: 80%;
+  margin: 1em;
+  border-radius: 5px;
+  border-width: 0.5px;
+  box-shadow: 0 5px 15px 0 rgba(0, 0, 0, 0.5);
+}
+input[type="submit"] {
+  background: white;
+  color: #333;
+  padding: 2px 10px 2px 10px;
+  border-radius: 10px;
+  border: solid #333 thin;
+  text-transform: uppercase;
+  font-size: 1em;
+  margin: 1em 0 0 7em;
+}
+input[type="submit"]:hover {
+  background: #333;
+  color: white;
+  border: none;
+}
+label {
+  margin-left: 15px;
+  font-size: 1em;
+  font-weight: lighter;
+  text-transform: capitalize;
+}
+.descripcion {
+  text-transform: capitalize;
+  font-size: 1.3em;
+  font-weight: lighter;
+  height: 90px;
+  width: 300px;
+
+  align-self: center;
+  /* border: #333 solid thin; */
+}
+.lista li {
+  list-style: circle;
+  margin: 1em;
+  text-transform: capitalize;
+  font-size: 1.5em;
+}
+.lista {
+  margin-top: 2em;
+}
+.footer {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  height: 40vh;
+  background: #3d3b30;
+}
+.box {
+  width: 33%;
+  /* border: solid white; */
+  margin: 5px;
+  color: white;
+
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: flex-start;
+}
+.box .subT {
+  text-transform: capitalize;
+  font-size: 2rem;
+  margin: 1rem 2rem 1rem 2rem;
+}
+.content {
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: space-evenly;
+  /* border: solid white; */
+  height: 100%;
+  text-transform: capitalize;
+}
+#mail {
+  text-transform: lowercase;
+}
+#ct {
+  text-transform: capitalize;
+}
+.sucursales * {
+  margin: 0;
+  padding: 0;
+  margin-left: 1rem;
+}
+.contacto * {
+  margin: 0;
+  padding: 0;
+  margin-left: 1rem;
+}
+.creditos * {
+  margin: 0;
+  padding: 0;
+  margin-left: 1rem;
+}
+.top {
+  border: #333 solid thin;
+  position: fixed;
+  padding: 2px 5px 2px 5px;
+  background: #fefdff;
+  bottom: 5%;
+  right: 5%;
+  text-decoration: none;
+  border-radius: 10px;
+  color: black;
+}
+.top:hover {
+  background: #333;
+  color: white;
+  border: none;
+}
